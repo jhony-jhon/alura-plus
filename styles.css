@@ -175,6 +175,7 @@ body {
 
     .container__descricao {
         text-align: left;
+        padding: 1em;
     }
 
     .dispositivos__lista {
@@ -185,6 +186,12 @@ body {
 
     .dispositivos__lista li {
         margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 100%;
+        height: auto;
     }
 }
 
