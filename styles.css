@@ -165,12 +165,10 @@ body {
     }
 
     .principal {
-        background-size: cover;
         padding: 1em;
     }
 
     .container {
-        display: block;
         padding: 1em;
     }
 
@@ -200,7 +198,7 @@ body {
     }
 
     .descricao__titulo {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .descricao__texto {
@@ -208,7 +206,7 @@ body {
     }
 
     .dispositivos__titulo {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .lista__item {
