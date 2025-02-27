@@ -14,6 +14,7 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    box-sizing: border-box;
 }
 
 * {
@@ -158,3 +159,61 @@ body {
     color: var(--cor-de-fundo);
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container__titulo {
+        font-size: 5vw;
+    }
+
+    .container__botao {
+        width: 80%;
+        max-width: 300px; /* Define uma largura máxima para os botões */
+        font-size: 1em;
+        padding: 0.8em;
+        margin: 0.8em auto;
+        display: block;
+        text-align: center;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    .descricao__titulo {
+        font-size: 5vw;
+    }
+
+    .dispositivos {
+        font-size: 3vw;
+    }
+
+    .dispositivos__titulo {
+        display: block;
+        font-size: 5vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+}
