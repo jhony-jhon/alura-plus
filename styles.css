@@ -158,3 +158,31 @@ body {
     color: var(--cor-de-fundo);
 }
 
+@media (max-width: 767px) {
+    .container {
+      grid-template-columns: 1fr; /* Altera o layout para uma coluna */
+      height: auto; /* Ajusta a altura automaticamente */
+    }
+  
+    .container__caixa {
+      margin: 2em 1em; /* Reduz as margens laterais */
+    }
+  
+    .secundario {
+      margin: 0 1em; /* Reduz as margens laterais */
+      text-align: center; /* Centraliza o conteúdo */
+    }
+  
+    .secundario__imagem {
+      width: 50%; /* Reduz o tamanho da imagem */
+    }
+  
+    .dispositivos__lista {
+      display: flex;
+      flex-direction: column; /* Altera o layout para uma coluna */
+    }
+  
+    .lista__item {
+      font-size: 24px; /* Reduz o tamanho da fonte */
+    }
+  }
